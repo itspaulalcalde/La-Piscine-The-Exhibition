@@ -54,14 +54,93 @@
         </div>
     </header>
 
-    <main>
-        <section>
-            <h1>SELECT YOUR TICKETS</h1>
-            <p>Choose your ticket type and quantity.</p>
-        </section>
-    </main>
+        
 
-        <footer>
+
+    <section class="tickets-seleccion">
+
+        <h1>SELECT YOUR TICKETS</h1>
+        <p>Choose your ticket type and quantity.</p>
+        <div class="ticket-box">
+            <div>
+                <div>
+                    <label>Senior</label>
+                    <label>Ages 65+</label>
+                </div>
+                <input type="number" min="0" max="50" value="0">
+            </div>
+            <div>
+                <div>
+                    <label>Adult</label>
+                    <label>Ages 18-65</label>
+                </div>
+                <input type="number" min="0" max="50" value="0">
+            </div>
+            <div>
+                <div>
+                    <label>Student</label>
+                    <label>Stuent ID required</label>
+                </div>
+                <input type="number" min="0" max="50" value="0">
+            </div>
+            <div>
+                <div>
+                    <label>Child</label>
+                    <label>Ages 5-18</label>
+                </div>
+                <input type="number" min="0" max="50" value="0">
+            </div>
+        </div>
+
+        <div>
+            <p>SELECT DATE & TIME</p>
+            <div class="date-time-box">
+                <div>
+                    <label>Date</label>
+                    <div>
+                        <input type="number" min="1" max="31" value="0">
+                        <input type="number" min="1" max="12" value="0">
+                    </div>
+                </div>
+                <div>
+                    <label>Time</label>
+                    <div>
+                        <select>
+                            <option value="10:00">10:00AM</option>
+                            <option value="11:00">11:00AM</option>
+                            <option value="12:00">12:00AM</option>
+                            <option value="13:00">13:00AM</option>
+                            <option value="15:00">15:00AM</option>
+                            <option value="16:00">16:00AM</option>
+                            <option value="17:00">17:00AM</option>
+                            <option value="18:00">18:00AM</option>
+                            <option value="19:00">19:00AM</option>
+                            <option value="20:00">20:00AM</option>
+                            <option value="21:00">21:00AM</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>ADITIONAL OPTIONS</p>
+            <div class="options-box">
+                <div>
+                    <input type="checkbox">
+                    <label>Audio Guide €10.00</label>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Exhibition catalogue €5.00</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
         <div class="footer-top">
             <h2>MAISON DU CINÉMA</h2>
             <p>Preserving cinematic history for future generations</p>
