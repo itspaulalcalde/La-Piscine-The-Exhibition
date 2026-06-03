@@ -79,7 +79,31 @@ body {
     width: 100%;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
 
+.gallery{
+    display: flex;
+    gap: 1vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.column img{
+    width: 100%;
+}
 
 
 
