@@ -202,3 +202,54 @@ body {
     font-family: "Elms Sans", sans-serif;
 
 }
+
+footer {
+    padding: 7%;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    background-color: #6f745c;
+    color: white;
+}
+
+footer > :first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+footer > :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+footer > :nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+footer > :nth-child(2) > :first-child > ul {
+    display: flex;
+    gap: 1.5vw;
+}
+
+footer > :last-child {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding-top: 2vw;
+}
+
+footer > :last-child > ul {
+    display: flex;
+    gap: 2vw;
+}
+
+footer ul {
+    list-style: none;
+}
