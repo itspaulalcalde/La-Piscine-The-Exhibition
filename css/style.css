@@ -11,7 +11,7 @@ body {
 
 
 /*HOME*/
-/*Tipografías*/
+/*Texto*/
 .logo {
     font-family: "Aboreto", system-ui;
     font-weight: 400;
@@ -29,18 +29,21 @@ body {
     font-family: "Elms Sans", sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
+    color: white;
 }
 
 .lapiscine {
     font-family: "Poiret One", sans-serif;
     font-weight: 00;
     font-size: 4rem;
+    color: white;
 }
 
 .exhibition {
     font-family: "Poiret One", sans-serif;
     font-weight: 300;
     font-size: 1.8rem;
+    color: white;
 }
 
 .intro {
@@ -55,13 +58,112 @@ body {
 }
 
 .info-title {
-    font-weight: 400;
+    font-family: "Pathway Extreme", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
 }
 
 .info-text {
+    font-family: "Pathway Extreme", sans-serif;
     font-weight: 300;
+    font-size: 0.7rem;
 }
 
+
+/*Elementos*/
+.line {
+    width: 1;
+}
+
+.img-hero{
+    width: 100%;
+}
+
+
+
+
+
+/*ABOUT*/
+/*Texto*/
+.hero-about {
+    font-family: "Poller One", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.about-the-film-title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.inside-the-exhibition-title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.text {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+/*Elementos*/
+.img-hero-about {
+    width: 100%;
+}
+
+
+
+
+
+/*TICKETS*/
+/*Texto*/
+.directed-by {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: white;
+}
+
+.jacques-deray {
+    font-family: "Poller One", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.select-tickets-title {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.select-tickets-texto {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.ticket-box {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+/*Elementos*/
+.img-hero-tickets {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
 .footer-logo {
     font-family: "Aboreto", system-ui;
     font-weight: 400;
