@@ -1,0 +1,78 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+/*General*/
+body {
+    background-color: beige;
+}
+
+
+/*HOME*/
+/*Tipografías*/
+.logo {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.menu {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+
+.botón-tickets {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.lapiscine {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 00;
+    font-size: 4rem;
+}
+
+.exhibition {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.intro {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.info-principal {
+    font-family: "Pathway Extreme", sans-serif;
+    font-size: 0.7rem;
+}
+
+.info-title {
+    font-weight: 400;
+}
+
+.info-text {
+    font-weight: 300;
+}
+
+.footer-logo {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+}
+
+.footer-eslogan {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 100;
+}
+
+.footer-info {
+    font-family: "Elms Sans", sans-serif;
+
+}
