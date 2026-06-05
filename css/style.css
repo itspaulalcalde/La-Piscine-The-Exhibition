@@ -71,28 +71,80 @@ body {
 
 
 /*Elementos*/
-.line {
-    width: 1;
-}
-
-.img-hero{
-    width: 100%;
-}
-
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0.5vw;
+    padding-right: 1vw;
 }
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
 .menu ul{
     display: flex;
     gap: 1.5rem;
     list-style: none;
 }
 
+.logo {
+    padding-left: 1vw;
+}
+
+.img-hero{
+    width: 100%;
+    padding-top: 0.5vw;
+}
+
+.botón-tickets {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+}
+
+.lapiscine {
+    display: flex;
+    justify-content: center;
+}
+
+.exhibition {
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+}
+
+.info-principal{
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    margin: 4vw;
+}
+
+.info-opening,
+.info-localizacion,
+.info-tickets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .gallery{
     display: flex;
     gap: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 7vw;
 }
 
 .column{
@@ -204,7 +256,7 @@ body {
 }
 
 footer {
-    padding: 7%;
+    padding: 3%;
     margin: 0;
     box-sizing: border-box;
     display: flex;
@@ -224,7 +276,7 @@ footer > :first-child {
 footer > :nth-child(2) {
     display: flex;
     justify-content: space-between;
-    gap: 5vw;
+    gap: 2vw;
 }
 
 footer > :nth-child(2) > div {
@@ -253,3 +305,6 @@ footer > :last-child > ul {
 footer ul {
     list-style: none;
 }
+
+
+
